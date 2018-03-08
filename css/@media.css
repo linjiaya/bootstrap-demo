@@ -1,0 +1,49 @@
+@media(max-width: 1200px){
+	#top_title{margin-top: 70px;}
+	#top_title li{font-size: 16px;}
+	#home #title-txt h1{top: -300px;width: 100%;}
+	#home #title-txt p{top: -200px;font-weight: 100;}
+	#home #title-txt a{top: -100px;}
+	#top_title .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+}
+@media(max-width: 992px){
+	#big_title{font-size: 30px;}
+	#top_title{margin-top: 55px;}
+	#top_title li{font-size: 14px;}
+	#home #title-txt{display: none;}
+	#team #team_box_all{width: 70%;}
+	#top_title .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+	}
+}
+@media(min-width: 768px){
+	#title{display: none;}
+}
+@media(max-width: 768px){
+	#top_title .navbar-default{background: rgba(205,88,61,0.8)}
+	#top_title .navbar-default ul{
+		 background: rgba(205,88,61,0.8);width: auto;
+		 border-top: 1px solid white;
+	}
+	#top_title .navbar-default .navbar-collapse{border:0;}
+	#top_title .navbar-default li{
+		width: 96%;
+		text-align: left;margin: auto;border-bottom: 1px solid #E67155;
+	}
+	#top_title .navbar-brand{padding: 15px 34px;}
+	#top_title .navbar-toggle{margin-right: 35px;}
+	#top_title li a{color: white;}
+	#top_title .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+	#title{font-size:28px;color: white;}
+	#top_title{margin-top: 0;}
+	#big_title{display: none;}
+	#title-img{display: none;}
+	#team #team_box_all{width: 60%;}
+}
